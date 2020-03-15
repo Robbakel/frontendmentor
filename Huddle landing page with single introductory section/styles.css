@@ -36,17 +36,22 @@ img#logo {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
-.hero-image img {
-    max-width: 100%;
+.hero-image {
+    margin-right: 40px;
 }
+
+    .hero-image img {
+        max-width: 100%;
+    }
 
 .hero-title {
     width: 528px;
     color: #fff;
     padding-top: 40px;
+    flex-shrink: 0;
 }
 
 button {
@@ -106,11 +111,10 @@ footer {
 
 /* Media Queries */
 
-@media screen and (max-width: 1280px) and (min-width: 800px) {
+@media screen and (max-width: 1137px) and (min-width: 960px) {
 
-    .hero-image {
-        margin-right: 40px;
-        width: 45vw;
+    .hero {
+        align-items: center;
     }
 
     .hero-title {
@@ -119,7 +123,7 @@ footer {
 
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 960px) {
     body {
         width: 85%;
         background-image: url(images/bg-mobile.svg);
@@ -135,6 +139,10 @@ footer {
     .hero {
         display: block;
         text-align: center;
+    }
+
+    .hero-image {
+        margin-right: 0;
     }
 
     .hero-title {
