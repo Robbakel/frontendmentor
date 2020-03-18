@@ -7,4 +7,5 @@ Here I'll be sharing my solutions to challenges I'm doing on [frontendmentor.io]
 - Four card feature section [source](https://github.com/robbakel/frontendmentor/tree/master/Four%20card%20feature%20section) &#124; [live](https://robbakel.github.io/frontendmentor/Four%20card%20feature%20section/)
 
 ### In Progress
+- [Huddle landing page with alternating feature blocks](https://www.frontendmentor.io/challenges/huddle-landing-page-with-alternating-feature-blocks-5ca5f5981e82137ec91a5100)
 - [Fylo landing page with two column layout](https://www.frontendmentor.io/challenges/fylo-landing-page-with-two-column-layout-5ca5ef041e82137ec91a50f5)
